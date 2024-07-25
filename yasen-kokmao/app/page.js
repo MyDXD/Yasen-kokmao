@@ -26,7 +26,7 @@ export default function Home() {
             src="/images/all.jpg"
             width={300}
             height={500}
-            className="object-fill rounded-3xl  w-80 absolute   translate-y-0" // just an example
+            className="object-fill rounded-3xl  w-80 absolute   translate-x-6" // just an example
           />
         </div>
       </div>
@@ -39,12 +39,59 @@ export default function Home() {
             ทางร้านบังดีนยาเส้นโคกเมาของเรามีการคัดเกรดของยาเส้น…
           </p>
         </div>
-        <div className=" justify-start items-start mt-10">
-          <span className="text-3xl font-bold	 text-[#81aa89]">
-            บังดีนยาเส้นโคกเมา
-          </span>
-
-          <p>ทางร้านบังดีนยาเส้นโคกเมาของเรามีการคัดเกรดของยาเส้น…</p>
+        <div className="justify-center items-start mt-10">
+          <table className="w-full border-collapse">
+            <tbody>
+              <tr className="flex flex-row w-full">
+                <td className="flex flex-col items-center p-4 text-center w-1/4">
+                  <Image
+                    src="/images/grade/1.png"
+                    width={150}
+                    height={150}
+                    className="object-fill"
+                    alt="Grade 1"
+                  />
+                  <p className="mt-5 text-[#6c6d70]">
+                    A+ เมามาก เมาเข้ม <br /> กระแทกคอ
+                  </p>
+                </td>
+                <td className="flex flex-col items-center p-4 text-center w-1/4">
+                  <Image
+                    src="/images/grade/2.png"
+                    width={150}
+                    height={150}
+                    className="object-fill"
+                    alt="Grade 2"
+                  />
+                  <p className="mt-5 text-[#6c6d70]">
+                    A เมากลาง <br /> เมากำลังดี เมานิ่มลึก
+                  </p>
+                </td>
+                <td className="flex flex-col items-center p-4 text-center w-1/4">
+                  <Image
+                    src="/images/grade/3.png"
+                    width={150}
+                    height={150}
+                    className="object-fill"
+                    alt="Grade 3"
+                  />
+                  <p className="mt-5 text-[#6c6d70]">B เบานิ่ม ลื่นคอ</p>
+                </td>
+                <td className="flex flex-col items-center p-4 text-center w-1/4">
+                  <Image
+                    src="/images/grade/4.png"
+                    width={150}
+                    height={150}
+                    className="object-fill"
+                    alt="Grade 4"
+                  />
+                  <p className="mt-5 text-[#6c6d70]">
+                    G ยาเขียว เบาถึงเมากลาง <br /> กลิ่นหอม
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
