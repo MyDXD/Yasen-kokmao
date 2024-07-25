@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.underline-offset {
+    text-decoration: underline;
+    text-decoration-thickness: 2px; /* ความหนาของเส้นขีดเส้นใต้ */
+    text-underline-offset: 1rem; /* ระยะห่างจากตัวอักษร */
+    text-decoration-color: gray; /* สีของเส้นขีดเส้นใต้ */
+  }
