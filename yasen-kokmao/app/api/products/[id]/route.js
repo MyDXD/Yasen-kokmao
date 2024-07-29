@@ -11,12 +11,12 @@ export async function GET(req, { params }) {
 
 export async function PUT(req, { params }) {
   try {
-    const { name, content } = await req.json();
+    const { name, content, price , image } = await req.json();
     console.log(name, content);
     return Response.json(
       await prisma.products.update({
         where: { id: Number(params.id) },
-        data: { name, content },
+        data: { name, content, price, image },
       })
     );
   } catch (error) {

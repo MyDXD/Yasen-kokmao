@@ -28,7 +28,7 @@ const Navbar = () => {
         <Link href="/" className="mx-4 hover:underline">
           หน้าหลัก
         </Link>
-        <Link href="/" className="mx-4 hover:underline">
+        <Link href="/products" className="mx-4 hover:underline">
           สินค้าทั้งหมด
         </Link>
         <Link href="/" className="mx-4 hover:underline">
